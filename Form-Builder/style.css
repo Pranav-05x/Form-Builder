@@ -1,0 +1,35 @@
+body{
+    min-height:100vh;
+    display:flex;
+    margin:0;
+}
+.formbuilder{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:lightgray;
+    flex:1;
+}
+.formcontrols{
+    padding:100px;
+    border-radius:10px;
+    border: 1px solid black;
+    background-color:white;
+    flex:1;
+}
+
+
+
+.formpreview{
+    background-color: lightblue;
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.displayPreview{
+    padding:200px;
+    border-radius:10px;
+    border: 1px solid black;
+    background-color:white;
+}
